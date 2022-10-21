@@ -1,7 +1,7 @@
 FROM python:3.8-slim-buster
 
-ADD . /math_py
-WORKDIR /math_py
+ADD . /gateway
+WORKDIR /gateway
 
 RUN pip3 install -r requirements.txt
 
