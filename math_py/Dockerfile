@@ -5,6 +5,6 @@ WORKDIR /math_py
 
 RUN pip3 install -r requirements.txt
 
-EXPOSE <PORT2>
+EXPOSE 5003
 
-CMD ["flask", "run", "--host=0.0.0.0", "--port=<PORT2>"]
+CMD ["flask", "run", "--host=0.0.0.0", "--port=5003"]
