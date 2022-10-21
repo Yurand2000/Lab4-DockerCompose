@@ -1,0 +1,11 @@
+version: "3"
+services:
+  gateway:
+    build: ./gateway
+    ports:
+      - "8080:5001"
+  math_py:
+    build: ./math_py
+  string_rust:
+    build: ./string_rust
+
